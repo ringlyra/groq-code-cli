@@ -119,7 +119,8 @@ async function main(): Promise<number> {
         `header:${tn.gray}`,
         `border:${tn.border}`
       ].join(','),
-      '--prompt', '選択> ',
+      '--prompt', '',
+      '--info=hidden',
       '--header', header,
       '--bind', 'left:up,right:down,enter:accept,y:accept,n:abort,esc:abort,ctrl-c:abort'
     ],
