@@ -3,7 +3,8 @@
 	"version": "1.0.2",
 	"license": "MIT",
 	"bin": {
-		"groq": "dist/core/cli.js"
+		"groq": "dist/core/cli.js",
+		"ai": "dist/core/ai.js"
 	},
 	"type": "module",
 	"engines": {
